@@ -2,6 +2,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
+// this mnemonic is just a test acc so feel free to wipe it
 const provider = new HDWalletProvider(
   "bus topple pole become struggle lobster pretty poem whisper duty exclude soap",
   "https://rinkeby.infura.io/kTrGQwEYVzE5p4fnO0OC"
